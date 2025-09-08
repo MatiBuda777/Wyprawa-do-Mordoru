@@ -155,6 +155,7 @@
 
 
                 <RadioGroup
+                    android:id="@+id/march_RadioGroup"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:padding="10dp"
@@ -357,6 +358,38 @@
                     android:layout_gravity="start"
                     android:padding="10dp"
                     android:text="(Ścieżki elfów)"/>
+
+                <TextView
+                    android:id="@+id/summary_equipment_TextBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:padding="10dp"
+                    android:text="Wyposażenie: (brak)"/>
+
+                <TextView
+                    android:id="@+id/summary_marchPriority_TextBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:padding="10dp"
+                    android:text="Priorytet marszu: (brak)"/>
+
+                <TextView
+                    android:id="@+id/summary_marchTime_TextBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:padding="10dp"
+                    android:text="Czas trwania marszu: 0h"/>
+
+                <TextView
+                    android:id="@+id/summary_teamMorales_TextBox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:padding="10dp"
+                    android:text="Morale drużyny: (brak)"/>
 
 
             </LinearLayout>
